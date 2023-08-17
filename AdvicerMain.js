@@ -1,4 +1,4 @@
-// Code - Samanth Annaiah 
+// Coder  - Samanth Annaiah 
 let advice_id = document.getElementById("advice_id"); 
 let qadvice = document.getElementById("qadvice"); 
 let qbutton = document.getElementById("qbutton");
