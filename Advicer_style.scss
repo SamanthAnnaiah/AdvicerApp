@@ -1,0 +1,92 @@
+@import 'Advicer_variabes.scss';
+
+@font-face {
+    font-family: fman;
+    src: url("/fonts/Manrope-Bold.ttf");
+}
+
+body {
+    width: $desktop;
+    background-color: $dark_blue;
+    color: white;
+    font-family: "fman";
+    letter-spacing: 3px;
+}
+
+div.main_div {
+    width: 30%;
+    margin: auto;
+}
+
+div.quot_div {
+    background-color: $dark_grayish_blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    div {
+        margin: 20px;
+    }
+    div.qhr {
+        display: grid;
+        place-items: center;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        img {
+            width: 80%;
+        }
+    }
+    #qadvice {
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+div.qnum  {
+    color: $neon_green;
+    font-size: 11px;
+}
+
+div.qpress {
+    z-index: 99;
+    background-color: $neon_green;
+    border-radius: 49%;
+    position: relative;
+    top: 40px;
+    img {
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
+div#qbutton:hover {
+        cursor: pointer;
+        box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px $neon_green, 0 0 30px $neon_green,
+        0 0 20px $neon_green, 0 0 30px $neon_green;
+}
+
+
+@media  screen and (max-width: $mobile) {
+    body {
+        width: $mobile;
+        font-size: 14px;
+    }
+    div.main_div {
+        width: 90%;
+        margin: auto;
+    }
+    div.quot_div {
+        margin-top: 85px;
+        div {
+            margin: 25px;
+        }
+    }
+    div.qnum  {
+        font-size: 8px;
+    }
+    div#qadvice {
+        margin: 2px;
+        padding: 2px;
+    }
+}

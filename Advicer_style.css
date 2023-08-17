@@ -1,0 +1,88 @@
+@font-face {
+  font-family: fman;
+  src: url("/fonts/Manrope-Bold.ttf");
+}
+body {
+  width: 1440px;
+  background-color: hsl(218, 23%, 16%);
+  color: white;
+  font-family: "fman";
+  letter-spacing: 3px;
+}
+
+div.main_div {
+  width: 30%;
+  margin: auto;
+}
+
+div.quot_div {
+  background-color: hsla(220, 28%, 21%, 0.93);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+}
+div.quot_div div {
+  margin: 20px;
+}
+div.quot_div div.qhr {
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+div.quot_div div.qhr img {
+  width: 80%;
+}
+div.quot_div #qadvice {
+  padding: 5px;
+  text-align: center;
+}
+
+div.qnum {
+  color: hsl(150, 100%, 66%);
+  font-size: 11px;
+}
+
+div.qpress {
+  z-index: 99;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 49%;
+  position: relative;
+  top: 40px;
+}
+div.qpress img {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+div#qbutton:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+    font-size: 14px;
+  }
+  div.main_div {
+    width: 90%;
+    margin: auto;
+  }
+  div.quot_div {
+    margin-top: 85px;
+  }
+  div.quot_div div {
+    margin: 25px;
+  }
+  div.qnum {
+    font-size: 8px;
+  }
+  div#qadvice {
+    margin: 2px;
+    padding: 2px;
+  }
+}/*# sourceMappingURL=Advicer_style.css.map */
