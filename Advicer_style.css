@@ -75,6 +75,12 @@ div#qbutton:hover {
   div.quot_div {
     max-width: 470px;
     margin-top: 2px;
+    background-color: hsla(220, 28%, 21%, 0.93);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   div.quot_div div {
     margin-top: 15px;
