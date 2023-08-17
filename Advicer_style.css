@@ -64,17 +64,17 @@ div#qbutton:hover {
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   body {
-    width: 600px;
+    width: 480px;
     font-size: 16px;
   }
   div.main_div {
-    max-width: 600px;
+    max-width: 480px;
   }
   div.quot_div {
-    max-width: 600px;
-    margin-top: 2px;
+    max-width: 480px;
+    margin: 5px;
     background-color: hsla(220, 28%, 21%, 0.93);
     border-radius: 20px;
     display: flex;
@@ -88,6 +88,9 @@ div#qbutton:hover {
   }
   div.qnum {
     font-size: 12px;
+  }
+  div.qpress {
+    border: 10px;
   }
   div#qadvice {
     margin: 2px;
