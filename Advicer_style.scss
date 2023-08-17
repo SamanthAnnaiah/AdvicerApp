@@ -11,6 +11,7 @@ body {
     color: white;
     font-family: "fman";
     letter-spacing: 3px;
+    box-sizing: border-box;
 }
 
 div.main_div {
@@ -70,20 +71,21 @@ div#qbutton:hover {
 @media  screen and (max-width: $mobile) {
     body {
         width: $mobile;
-        font-size: 14px;
+        font-size: 24px;
     }
     div.main_div {
-        width: 90%;
+        width: 470px; 
         margin: auto;
     }
     div.quot_div {
         margin-top: 85px;
         div {
-            margin: 25px;
+            margin-top: 15px;
+            margin-bottom: 15px;
         }
     }
     div.qnum  {
-        font-size: 8px;
+        font-size: 12px;
     }
     div#qadvice {
         margin: 2px;

@@ -8,6 +8,7 @@ body {
   color: white;
   font-family: "fman";
   letter-spacing: 3px;
+  box-sizing: border-box;
 }
 
 div.main_div {
@@ -63,23 +64,24 @@ div#qbutton:hover {
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   body {
-    width: 375px;
-    font-size: 14px;
+    width: 480px;
+    font-size: 24px;
   }
   div.main_div {
-    width: 90%;
+    width: 470px;
     margin: auto;
   }
   div.quot_div {
     margin-top: 85px;
   }
   div.quot_div div {
-    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   div.qnum {
-    font-size: 8px;
+    font-size: 12px;
   }
   div#qadvice {
     margin: 2px;
