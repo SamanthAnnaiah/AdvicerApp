@@ -64,16 +64,16 @@ div#qbutton:hover {
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   body {
-    width: 470px;
+    width: 600px;
     font-size: 16px;
   }
   div.main_div {
-    max-width: 470px;
+    max-width: 600px;
   }
   div.quot_div {
-    max-width: 470px;
+    max-width: 600px;
     margin-top: 2px;
     background-color: hsla(220, 28%, 21%, 0.93);
     border-radius: 20px;
