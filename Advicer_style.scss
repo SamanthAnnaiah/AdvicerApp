@@ -71,11 +71,10 @@ div#qbutton:hover {
 @media  screen and (max-width: $mobile) {
     body {
         width: $mobile;
-        font-size: 24px;
+        font-size: 16px;
     }
     div.main_div {
-        width: 470px; 
-        margin: auto;
+        max-width: 400px; 
     }
     div.quot_div {
         margin-top: 85px;
