@@ -70,10 +70,10 @@ div#qbutton:hover {
     font-size: 16px;
   }
   div.main_div {
-    max-width: 480px;
+    width: 480px;
   }
   div.quot_div {
-    max-width: 480px;
+    width: 480px;
     margin: 5px;
     background-color: hsla(220, 28%, 21%, 0.93);
     border-radius: 20px;
