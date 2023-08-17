@@ -73,7 +73,8 @@ div#qbutton:hover {
     max-width: 470px;
   }
   div.quot_div {
-    margin-top: 85px;
+    max-width: 470px;
+    margin-top: 2px;
   }
   div.quot_div div {
     margin-top: 15px;

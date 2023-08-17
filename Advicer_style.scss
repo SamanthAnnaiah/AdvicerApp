@@ -77,7 +77,8 @@ div#qbutton:hover {
         max-width: $mobile; 
     }
     div.quot_div {
-        margin-top: 85px;
+        max-width: $mobile; 
+        margin-top: 2px;
         div {
             margin-top: 15px;
             margin-bottom: 15px;
